@@ -1,0 +1,13 @@
+import numpy as np
+m = 5  
+n = 10  
+mat = np.random.rand(m, n)
+cov_mat = np.cov(mat)
+corr_mat = np.corrcoef(mat)
+print("Matrix (m x n):")
+print(mat)
+print("\nCovariance Matrix (m x m):")
+print(cov_mat)
+print("\nCorrelation Matrix (m x m):")
+print(corr_mat)
+
